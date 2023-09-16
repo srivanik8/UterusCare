@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Uterus Health Assessment</title>
+    <link rel="stylesheet" href="uc.css">
+</head>
+<body>
+    <h2>Uterus Health Assessment</h2>
+    <div class="container">
+        <div class="question-div">
+            <label for="menstrualCycle">1. How often do you experience menstrual periods, and are they regular?</label>
+            <input type="text" id="menstrualCycle" name="menstrualCycle" required>
+            <button class="diagnosis-button" onclick="getDiagnosis('menstrualCycle')">Diagnosis</button>
+            <p id="menstrualCycleDiagnosis"></p>
+        </div>
+
+        <div class="question-div">
+            <label for="pelvicPain">2. Do you experience pelvic pain or discomfort?</label>
+            <input type="text" id="pelvicPain" name="pelvicPain" required>
+            <button class="diagnosis-button" onclick="getDiagnosis('pelvicPain')">Diagnosis</button>
+            <p id="pelvicPainDiagnosis"></p>
+        </div>
+
+        <div class="question-div">
+            <label for="vaginalBleeding">3. Have you experienced vaginal bleeding between periods or after menopause?</label>
+            <input type="text" id="vaginalBleeding" name="vaginalBleeding" required>
+            <button class="diagnosis-button" onclick="getDiagnosis('vaginalBleeding')">Diagnosis</button>
+            <p id="vaginalBleedingDiagnosis"></p>
+        </div>
+
+        <div class="question-div">
+            <label for="familyHistory">4. Do you have a family history of uterine conditions, such as fibroids or endometriosis?</label>
+            <input type="text" id="familyHistory" name="familyHistory" required>
+            <button class="diagnosis-button" onclick="getDiagnosis('familyHistory')">Diagnosis</button>
+            <p id="familyHistoryDiagnosis"></p>
+        </div>
+
+        <div class="question-div">
+            <label for="pelvicInfection">5. Have you ever had a pelvic infection or sexually transmitted infection (STI)?</label>
+            <input type="text" id="pelvicInfection" name="pelvicInfection" required>
+            <button class="diagnosis-button" onclick="getDiagnosis('pelvicInfection')">Diagnosis</button>
+            <p id="pelvicInfectionDiagnosis"></p>
+        </div>
+
+        <div class="question-div">
+            <label for="unusualOdors">6. Have you noticed any unusual or strong odors during your periods?</label>
+            <input type="text" id="unusualOdors" name="unusualOdors" required>
+            <button class="diagnosis-button" onclick="getDiagnosis('unusualOdors')">Diagnosis</button>
+            <p id="unusualOdorsDiagnosis"></p>
+        </div>
+
+        <div class="question-div">
+            <label for="severePain">7. Are your periods accompanied by severe pain or discomfort that disrupts your daily activities?</label>
+            <input type="text" id="severePain" name="severePain" required>
+            <button class="diagnosis-button" onclick="getDiagnosis('severePain')">Diagnosis</button>
+            <p id="severePainDiagnosis"></p>
+        </div>
+
+        <div class="question-div">
+            <label for="irregularBleeding">8. Have you experienced any irregular bleeding between your periods?</label>
+            <input type="text" id="irregularBleeding" name="irregularBleeding" required>
+            <button class="diagnosis-button" onclick="getDiagnosis('irregularBleeding')">Diagnosis</button>
+            <p id="irregularBleedingDiagnosis"></p>
+        </div>
+
+        <div class="question-div">
+            <label for="lowerAbdomenDiscomfort">9. Do you experience any pain or discomfort in your lower abdomen outside of your menstrual cycle?</label>
+            <input type="text" id="lowerAbdomenDiscomfort" name="lowerAbdomenDiscomfort" required>
+            <button class="diagnosis-button" onclick="getDiagnosis('lowerAbdomenDiscomfort')">Diagnosis</button>
+            <p id="lowerAbdomenDiscomfortDiagnosis"></p>
+        </div>
+
+        <div class="question-div">
+            <label for="hormonalIssues">10. Do you have any hormonal issues?</label>
+            <input type="text" id="hormonalIssues" name="hormonalIssues" required>
+            <button class="diagnosis-button" onclick="getDiagnosis('hormonalIssues')">Diagnosis</button>
+            <p id="hormonalIssuesDiagnosis"></p>
+        </div>
+    </div>
+
+    <script src="uc.js"></script>
+</body>
