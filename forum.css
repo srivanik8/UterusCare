@@ -1,0 +1,116 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    font-family: 'roboto' , sans-serif;
+    background-image: linear-gradient(to top, #FBE9E1 0%, #FAE7DE  100%);
+    margin: 0;
+    padding: 0;
+}
+
+.post-container {
+    background-image: linear-gradient(to top, #FBE9E1 0%, #FAE7DE  100%);
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.post-input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    resize: vertical;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.post {
+    background-color: #D5C5BD;
+    margin-top: 20px;
+    padding: 15px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+button.like,
+button.heart,
+button.emoji {
+    margin-top: 10px;
+    background-color: transparent;
+    border: none;
+    color: #007BFF;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+button.like:hover,
+button.heart:hover,
+button.emoji:hover {
+    text-decoration: underline;
+}
+h2 {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 45px;
+    font-family: mooli;
+}
+.part{
+    display: grid;
+    grid-template-columns: repeat(, 1fr); /* Two items per column */
+    grid-gap: 30px;
+    width: 1300px;
+}
+
+
+/* Add CSS rules to style the action buttons */
+.action-button {
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 25px;
+    transition: color 0.3s ease; /* Use color for transition */
+    display: inline-block; /* Prevent line break */
+}
+
+.action-button.active {
+    color: red; /* Change the text color to red when active */
+}
+
+
+#postDisplay{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    gap: 60px;
+    margin-left: 180px;
+}
+/* Rest of your CSS styles (from previous code) */

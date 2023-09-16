@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mooli&family=Roboto&display=swap" rel="stylesheet">
     <title>Uterus Health Assessment</title>
     <link rel="stylesheet" href="uc.css">
 </head>
@@ -147,11 +150,10 @@
             <p id="hormonalIssuesDiagnosis"></p>
         </div>
 
-        <div class="question-div">
-            <button class="diagnosis-button" onclick="calculateOverallScore()">Calculate Overall Score</button>
-            <p id="overallScore"></p>
-        </div>
-
+    </div>
+    <div id="total">
+        <button class="diagnosis-button" onclick="calculateOverallScore()" id="overall">Calculate Overall Score</button>
+        <p id="overallScore"></p>
     </div>
 
     <script src="uc.js"></script>
