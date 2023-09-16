@@ -9,70 +9,140 @@
     <div class="container">
         <div class="question-div">
             <label for="menstrualCycle">1. How often do you experience menstrual periods, and are they regular?</label>
-            <input type="text" id="menstrualCycle" name="menstrualCycle" required>
+            <br>
+            <br>
+            <input type="radio" id="menstrualCycleYes" name="menstrualCycle" value="yes" required>
+            <label for="menstrualCycleYes">Yes</label>
+            <input type="radio" id="menstrualCycleNo" name="menstrualCycle" value="no">
+            <label for="menstrualCycleNo">No</label>
+            <br>
+            <br>
             <button class="diagnosis-button" onclick="getDiagnosis('menstrualCycle')">Diagnosis</button>
             <p id="menstrualCycleDiagnosis"></p>
         </div>
 
         <div class="question-div">
             <label for="pelvicPain">2. Do you experience pelvic pain or discomfort?</label>
-            <input type="text" id="pelvicPain" name="pelvicPain" required>
+            <br>
+            <br>
+            <input type="radio" id="pelvicPainYes" name="pelvicPain" value="yes" required>
+            <label for="pelvicPainYes">Yes</label>
+            <input type="radio" id="pelvicPainNo" name="pelvicPain" value="no">
+            <label for="pelvicPainNo">No</label>
+            <br>
+            <br>
             <button class="diagnosis-button" onclick="getDiagnosis('pelvicPain')">Diagnosis</button>
             <p id="pelvicPainDiagnosis"></p>
         </div>
 
         <div class="question-div">
             <label for="vaginalBleeding">3. Have you experienced vaginal bleeding between periods or after menopause?</label>
-            <input type="text" id="vaginalBleeding" name="vaginalBleeding" required>
+            <br>
+            <br>
+            <input type="radio" id="vaginalBleedingYes" name="vaginalBleeding" value="yes" required>
+            <label for="vaginalBleedingYes">Yes</label>
+            <input type="radio" id="vaginalBleedingNo" name="vaginalBleeding" value="no">
+            <label for="vaginalBleedingNo">No</label>
+            <br>
+            <br>
             <button class="diagnosis-button" onclick="getDiagnosis('vaginalBleeding')">Diagnosis</button>
             <p id="vaginalBleedingDiagnosis"></p>
         </div>
 
         <div class="question-div">
             <label for="familyHistory">4. Do you have a family history of uterine conditions, such as fibroids or endometriosis?</label>
-            <input type="text" id="familyHistory" name="familyHistory" required>
+            <br>
+            <br>
+            <input type="radio" id="familyHistoryYes" name="familyHistory" value="yes" required>
+            <label for="familyHistoryYes">Yes</label>
+            <input type="radio" id="familyHistoryNo" name="familyHistory" value="no">
+            <label for="familyHistoryNo">No</label>
+            <br>
+            <br>
             <button class="diagnosis-button" onclick="getDiagnosis('familyHistory')">Diagnosis</button>
             <p id="familyHistoryDiagnosis"></p>
         </div>
 
         <div class="question-div">
             <label for="pelvicInfection">5. Have you ever had a pelvic infection or sexually transmitted infection (STI)?</label>
-            <input type="text" id="pelvicInfection" name="pelvicInfection" required>
+            <br>
+            <br>
+            <input type="radio" id="pelvicInfectionYes" name="pelvicInfection" value="yes" required>
+            <label for="pelvicInfectionYes">Yes</label>
+            <input type="radio" id="pelvicInfectionNo" name="pelvicInfection" value="no">
+            <label for="pelvicInfectionNo">No</label>
+            <br>
+            <br>
             <button class="diagnosis-button" onclick="getDiagnosis('pelvicInfection')">Diagnosis</button>
             <p id="pelvicInfectionDiagnosis"></p>
         </div>
 
         <div class="question-div">
             <label for="unusualOdors">6. Have you noticed any unusual or strong odors during your periods?</label>
-            <input type="text" id="unusualOdors" name="unusualOdors" required>
+            <br>
+            <br>
+            <input type="radio" id="unusualOdorsYes" name="unusualOdors" value="yes" required>
+            <label for="unusualOdorsYes">Yes</label>
+            <input type="radio" id="unusualOdorsNo" name="unusualOdors" value="no">
+            <label for="unusualOdorsNo">No</label>
+            <br>
+            <br>
             <button class="diagnosis-button" onclick="getDiagnosis('unusualOdors')">Diagnosis</button>
             <p id="unusualOdorsDiagnosis"></p>
         </div>
 
         <div class="question-div">
             <label for="severePain">7. Are your periods accompanied by severe pain or discomfort that disrupts your daily activities?</label>
-            <input type="text" id="severePain" name="severePain" required>
+            <br>
+            <br>
+            <input type="radio" id="severePainYes" name="severePain" value="yes" required>
+            <label for="severePainYes">Yes</label>
+            <input type="radio" id="severePainNo" name="severePain" value="no">
+            <label for="severePainNo">No</label>
+            <br>
+            <br>
             <button class="diagnosis-button" onclick="getDiagnosis('severePain')">Diagnosis</button>
             <p id="severePainDiagnosis"></p>
         </div>
 
         <div class="question-div">
-            <label for="irregularBleeding">8. Have you experienced any irregular bleeding between your periods?</label>
-            <input type="text" id="irregularBleeding" name="irregularBleeding" required>
+            <label for="irregularBleeding">8. are your periods late?</label>
+            <br>
+            <br>
+            <input type="radio" id="irregularBleedingYes" name="irregularBleeding" value="yes" required>
+            <label for="irregularBleedingYes">Yes</label>
+            <input type="radio" id="irregularBleedingNo" name="irregularBleeding" value="no">
+            <label for="irregularBleedingNo">No</label>
+            <br>
+            <br>
             <button class="diagnosis-button" onclick="getDiagnosis('irregularBleeding')">Diagnosis</button>
             <p id="irregularBleedingDiagnosis"></p>
         </div>
 
         <div class="question-div">
             <label for="lowerAbdomenDiscomfort">9. Do you experience any pain or discomfort in your lower abdomen outside of your menstrual cycle?</label>
-            <input type="text" id="lowerAbdomenDiscomfort" name="lowerAbdomenDiscomfort" required>
+            <br>
+            <br>
+            <input type="radio" id="lowerAbdomenDiscomfortYes" name="lowerAbdomenDiscomfort" value="yes" required>
+            <label for="lowerAbdomenDiscomfortYes">Yes</label>
+            <input type="radio" id="lowerAbdomenDiscomfortNo" name="lowerAbdomenDiscomfort" value="no">
+            <label for="lowerAbdomenDiscomfortNo">No</label>
+            <br>
+            <br>
             <button class="diagnosis-button" onclick="getDiagnosis('lowerAbdomenDiscomfort')">Diagnosis</button>
             <p id="lowerAbdomenDiscomfortDiagnosis"></p>
         </div>
 
         <div class="question-div">
             <label for="hormonalIssues">10. Do you have any hormonal issues?</label>
-            <input type="text" id="hormonalIssues" name="hormonalIssues" required>
+            <br>
+            <br>
+            <input type="radio" id="hormonalIssuesYes" name="hormonalIssues" value="yes" required>
+            <label for="hormonalIssuesYes">Yes</label>
+            <input type="radio" id="hormonalIssuesNo" name="hormonalIssues" value="no">
+            <label for="hormonalIssuesNo">No</label>
+            <br>
+            <br>
             <button class="diagnosis-button" onclick="getDiagnosis('hormonalIssues')">Diagnosis</button>
             <p id="hormonalIssuesDiagnosis"></p>
         </div>

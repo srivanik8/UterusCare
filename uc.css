@@ -16,20 +16,10 @@ label {
     font-weight: bold;
 }
 
-input[type="text"], input[type="number"], textarea {
-    width: 90%;
-    margin-top: 16px;
-    padding: 8px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
 .question-div {
     margin-bottom: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid #262525;
     padding: 10px;
-    background-color: aqua;
     border-radius: 12px;
 }
 
@@ -45,7 +35,8 @@ input[type="text"], input[type="number"], textarea {
 .diagnosis-button:hover {
     background-color: #f24242;
 }
-h2{
+
+h2 {
     margin-top: 60px;
     text-align: center;
     font-size: 45px;
