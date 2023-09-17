@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="UTF-8">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,11 +32,11 @@
             <br>
             <br>
             <div id="tabs">
-                <a href="uc.html"><button>Health Assessment</button></a>
-                <a href="forum.html"><button>Forum</button></a>
-                <a href="podcast.html"><button>Podcast</button></a>
-                <a href="resources.html"><button>Resources</button></a>
-                <a href="con.html"><button>Contact-Us</button></a>
+                <a href="uc.html"><button class="dan">Health Assessment</button></a>
+                <a href="forum.html"><button class="dan">Forum</button></a>
+                <a href="podcast.html"><button class="dan">Podcast</button></a>
+                <a href="resources.html"><button class="dan">Resources</button></a>
+                <a href="con.html"><button class="dan">Contact-Us</button></a>
             </div>
 
         </div>
@@ -69,6 +70,63 @@
             <a href="https://www.healthline.com/health/uterine-fibroids"><button class="btn">Learn More</button></a>
         </div>
     </div>
+
+
+
+
+
+    <!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+    <!-- CHAT BAR BLOCK -->
+    <div class="chat-bar-collapsible">
+        <img id="chat-button" type="button" class="collapsible" src="https://i.ibb.co/D8HLRn0/Untitled-design-20230826-134714-0000-removebg-preview.png">
+
+        <div class="content">
+            <div class="full-chat-block">
+                <!-- Message Container -->
+                <div class="outer-container">
+                    <div class="chat-container">
+                        <!-- Messages -->
+                        <div id="chatbox">
+                            <h5 id="chat-timestamp"></h5>
+                            <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
+                        </div>
+
+                        <!-- User input box -->
+                        <div class="chat-bar-input-block">
+                            <div id="userInput">
+                                <input id="textInput" class="input-box" type="text" name="msg"
+                                    placeholder="Tap 'Enter' to send a message">
+                                <p></p>
+                            </div>
+
+                            <div class="chat-bar-icons">
+                                <i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart"
+                                    onclick="heartButton()"></i>
+                                <i id="chat-icon" style="color: #6966f6;" class="fa fa-fw fa-send"
+                                    onclick="sendButton()"></i>
+                            </div>
+                        </div>
+
+                        <div id="chat-bar-bottom">
+                            <p></p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div id="love">
+        <h1 id="dim"> Made with Izel🤍</h1>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="response.js" type="module" defer></script>
+    <script src="chat.js" type="module" defer></script>
 
     
 </body>
