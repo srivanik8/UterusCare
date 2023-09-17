@@ -21,7 +21,15 @@ nav{
     text-align: center;
     background-color: #D5C5BD;
 }
-#left , #right{
+#left{
+    font-family: mooli;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    gap: 50px;
+    background-color: #D5C5BD;
+}
+#right {
     font-family: mooli;
     display: flex;
     flex-wrap: wrap;
@@ -31,4 +39,35 @@ nav{
 }
 h2{
     margin-top: 30px;
+}
+#img1{
+    margin-top: -40px;
+    margin-left: 80px;
+    height:600px;
+    width: max-content;
+}
+#web{
+    display: flex;
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 100px;
+}
+#l{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+h1{
+    text-align: left;
+    width: 600px;
+    line-height: 0.5;
+    font-family: mooli;
+    font-size: 60px;
+}
+h3{
+    line-height: 0.5;
+    font-family: roboto;
+    letter-spacing: 1px;
+    color: #525252;
+    font-size: 20px;
+    text-align:left;
 }
