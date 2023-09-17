@@ -1,0 +1,113 @@
+html, body {
+    height: 99%;
+    width: 99%;
+    font-family: roboto;
+    background-image: linear-gradient(to top, #FBE9E1 0%, #FAE7DE  100%);
+}
+img{
+    height: 50px;
+    width: 50px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+nav{
+    font-family: mooli;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    gap: 200px;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background-color: #D5C5BD;
+}
+#left , #right{
+    font-family: mooli;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    gap: 100px;
+    background-color: #D5C5BD;
+}
+h2{
+    margin-top: 30px;
+}/* styles.css */
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.podcast {
+    border: none;
+    border-radius: 12px;
+    background-color: #AA9D98;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: mooli;
+}
+
+button {
+    margin: 10px;
+    background-color: #e44161;
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: roboto;
+    width: 100px;
+    height: 40px;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+#recordings{
+    margin-top: 40px;
+    stroke: none;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    font-family: roboto;
+}
+#recordingsList{
+    
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    gap: 60px;
+    margin-left: 180px;
+    margin-top: 40px;
+}
+.segment{
+    width: 340px;
+    height: 240px;
+    background-color: #D5C5BD;
+    border: none;
+    border-radius: 12px;
+    
+
+}
+input{
+    margin-top: 24px;
+    width: 160px;
+    height: 40px;
+    border: none;
+    border-radius: 40px;
+    text-align: center;
+    font-family: roboto;
+    font-size: 16px;
+}
+.rec{
+    font-family: roboto;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

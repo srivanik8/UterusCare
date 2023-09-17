@@ -1,0 +1,34 @@
+html, body {
+    height: 99%;
+    width: 99%;
+    font-family: roboto;
+    background-image: linear-gradient(to top, #FBE9E1 0%, #FAE7DE  100%);
+}
+img{
+    height: 50px;
+    width: 50px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+nav{
+    font-family: mooli;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    gap: 200px;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background-color: #D5C5BD;
+}
+#left , #right{
+    font-family: mooli;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    gap: 100px;
+    background-color: #D5C5BD;
+}
+h2{
+    margin-top: 30px;
+}
