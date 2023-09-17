@@ -22,6 +22,7 @@ nav{
     background-color: #D5C5BD;
 }
 #left{
+    margin-left: 200px;
     font-family: mooli;
     display: flex;
     flex-wrap: wrap;
@@ -116,7 +117,7 @@ p{
     line-height: 0px;
     line-height: 5px;
 }
-button{
+.btn{
     margin-left: 130px;
     height: 45px;
     width: 130px;
@@ -142,4 +143,27 @@ img{
     color: #525252;
     margin-left: 200px;
     font-size: 35px;
+}
+#tabs{
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 150px); /* Two items per column */
+    grid-gap: 10px;
+    text-align: left;
+    width: 200px;
+    height: fit-content;
+
+}
+button{
+    cursor: pointer;
+    height: 45px;
+    width: 130px;
+    border-radius: 18px;
+    border: none;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: #CFBDB4;
+    background-image: linear-gradient(to top, #D7C8C1 0%, #B6AAA5  100%);
+}
 }
