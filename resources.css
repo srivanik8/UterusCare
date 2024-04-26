@@ -1,21 +1,21 @@
 html, body {
-    height: 99%;
+    height: 100%;
     width: 99%;
     font-family: roboto;
     background-image: linear-gradient(to top, #FBE9E1 0%, #FAE7DE  100%);
 }
-#img1{
+#logo{
     height: 50px;
     width: 50px;
     margin-left: 200px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 nav{
     font-family: mooli;
     display: flex;
     flex-wrap: wrap;
     flex-grow: 1;
-    gap: 200px;
+    gap: 100px;
     width: 100%;
     height: 100px;
     text-align: center;
@@ -27,6 +27,8 @@ nav{
     flex-wrap: wrap;
     flex-grow: 1;
     gap: 50px;
+    padding-top: 10px;
+
     background-color: #D5C5BD;
 }
 #right {
@@ -35,13 +37,14 @@ nav{
     flex-wrap: wrap;
     flex-grow: 1;
     gap: 100px;
+    padding-top: 10px;
     background-color: #D5C5BD;
 }
-h2{
+right > h2{
     margin-top: 30px;
 }
+
 #res{
-    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     flex-grow: 1;
@@ -53,7 +56,7 @@ h2{
     border: none;
     border-radius: 12px;
     height: 510px;
-    width: 400px;
+    width: 380px;
 }
 #kim{
     font-size: 45px;
@@ -91,7 +94,7 @@ h1{
     margin-top: 5px;
     text-align: center;
 }
-img{
+.post > img{
     margin-left: 24px;
     margin-top: 20px;
     

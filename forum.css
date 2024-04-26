@@ -14,6 +14,7 @@ body {
     margin: 20px auto;
     padding: 20px;
     border-radius: 12px;
+    padding-left: 200px;
 }
 
 .post-input {
@@ -119,3 +120,11 @@ h2 {
     margin-left: 180px;
 }
 /* Rest of your CSS styles (from previous code) */
+#arrow {
+    padding-top: 5%;
+    font-weight: bolder;
+    margin-left: 5%;
+    position: fixed;
+    cursor: pointer;
+    color: #000;
+  }
